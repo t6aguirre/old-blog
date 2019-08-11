@@ -2,12 +2,7 @@ Tomás Aguirre's blog
 =====================
 
 
-aaaa
-
-<a href="https://t6aguirre.github.io/cv/CV_t6aguirre.pdf" class="download" title="Download CV as PDF">Download CV</a>			
-
-
-## About me 
+# About me 
 
 
 Hey! I’m Tomas Aguirre Lessa Vaz
