@@ -1,4 +1,4 @@
-t6aguirre.github.io
+Tomás Aguirre's blog
 =====================
 
-Beta version
+##About me 
