@@ -1,14 +1,8 @@
 Tomás Aguirre's blog
 =====================
 
-	<div class="cv">
-		<a href="https://t6aguirre.github.io/cv/CV_t6aguirre.pdf" class="download" title="Download CV as PDF">Download CV</a>			
-					<h1>Tomas Aguirre</h1>
-					<address>
-					<span class="obfuscate">t6aguirre@gmail.com</span>
-					</address>
+<a href="https://t6aguirre.github.io/cv/CV_t6aguirre.pdf" class="download" title="Download CV as PDF">Download CV</a>			
 
-	</div>
 
 ## About me 
 
