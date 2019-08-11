@@ -2,7 +2,7 @@ Tomás Aguirre's blog
 =====================
 
 
-# About me 
+### About me 
 
 
 Hey! I’m Tomas Aguirre Lessa Vaz
