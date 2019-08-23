@@ -4,7 +4,7 @@ title: "Learning introductory statistics"
 date: 2019-08-09
 ---
 
-I just began learning university-level introductory statistics and probability. And I want to do it with a hands-on approach and using the best resources avaible online. Three of the main resources that I will use are: 
+I just began learning undergraduate level introductory statistics and probability. And I want to do it with a hands-on approach and using the best resources avaible online. Three of the main resources that I will use are: 
 
 [Computerphile's Playlist Data Analysis with Dr Mike Pound](https://www.youtube.com/playlist?list=PLzH6n4zXuckpfMu_4Ff8E7Z1behQks5ba)
 An amazing - and short - introduction to data analysis with R by Computerphile, a YouTube channel about Computer Science based at the University of Nottingham.
