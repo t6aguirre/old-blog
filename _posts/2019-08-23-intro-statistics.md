@@ -17,4 +17,4 @@ In an enthusiast of open textbooks. And this is a great one. I had studied the f
 
 Alongside with these links, I’ll also follow my syllabus at the University of Sao Paulo (unfortunately --  and unusually -- , they don’t have a recent open syllabus of this subject) and use some resources from [MIT Open Course Warehouse](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/index.htm) 
 
-If you know any other resources for learning introductory staticis and probabilty, please, message me! I can update this post afterwards.  
+If you know any other resources for learning introductory staticis and probabilty, please, message me!
