@@ -12,6 +12,9 @@ An amazing - and short - introduction to data analysis with R by Computerphile, 
 [Seeing Theory](https://seeing-theory.brown.edu/) - 
 Nothing like a good visualization to finally grasp a hard mathematical concept (by the way, I love you, 3Blue1Brown). This site, which started as an undergrad project at Brown University, is a perfect examples of that. 
 
+
+![alt text](https://github.com/t6aguirre/t6aguirre.github.io/blob/master/_posts/bayes.png "Visualizing the Bayes' Theorem")
+
 [OpenIntro Statistics Open Textbooks](https://www.openintro.org/) -
 I'm an enthusiast of open textbooks. And this is a great one. I had studied the first hundred pages of it two years ago, in the middle of high school. Now, let's get to the end of it. 
 
