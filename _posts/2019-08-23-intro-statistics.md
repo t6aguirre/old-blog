@@ -1,12 +1,12 @@
 --- 
 layout: post
 title: "Learning introductory statistics"
-date: 2019-08-09
+date: 2019-08-23
 ---
 
 I just started studying undergraduate level introductory statistics and probability. And I want to do it with a hands-on approach and using the best learning resources available online. Three of the main sites that I will use for that are: 
 
-[Computerphile's Playlist Data Analysis with Dr Mike Pound](https://www.youtube.com/playlist?list=PLzH6n4zXuckpfMu_4Ff8E7Z1behQks5ba) -
+[Computerphile's Playlist on Data Analysis](https://www.youtube.com/playlist?list=PLzH6n4zXuckpfMu_4Ff8E7Z1behQks5ba) -
 An amazing - and short - introduction to data analysis with R by Computerphile, a YouTube channel about Computer Science based at the University of Nottingham.
 
 [Seeing Theory](https://seeing-theory.brown.edu/) - 
