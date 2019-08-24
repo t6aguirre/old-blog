@@ -15,6 +15,6 @@ Nothing like a good visualization to finally grasp a hard mathematical concept (
 [OpenIntro Statistics Open Textbooks](https://www.openintro.org/) -
 I'm an enthusiast of open textbooks. And this is a great one. I had studied the first hundred pages of it two years ago, in the middle of high school. Now, let's get to the end of it. 
 
-Alongside with these sites, I’ll also follow my syllabus at the University of Sao Paulo (unfortunately --  and unusually -- , they don’t have a recent open syllabus of this subject) and use some resources from [MIT Open Course Warehouse](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/index.htm) 
+Alongside with these sites, I’ll also follow my syllabus at the University of Sao Paulo (unfortunately - and unusually - , they don’t have a recent open syllabus of this subject) and use some resources from [MIT Open Course Warehouse](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/index.htm) 
 
 If you know any other good resources for learning introductory statistics and probability, please, message me!
