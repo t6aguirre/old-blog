@@ -4,7 +4,7 @@ title: "Utilidade,  preferencias,  e teoria do consumidor"
 date: 2020-4-14
 ---
 
-Quando um agente tem a opção de escolher entre duas opções, $A$ e $B$, e ele escolhe $B$ em vez de $A$, dizemos que ele prefere $B$ a $A$. Matematicamente, denotamos: 
+Quando um agente tem a opção de escolher entre duas opções, $$A$$ e $$B$$, e ele escolhe $$B$$ em vez de $$A$$, dizemos que ele prefere $B$ a $A$. Matematicamente, denotamos: 
 $A \prec B$
 
 Caso o agente for indiferente há ambas opções, denotamos: $A \sim B$
