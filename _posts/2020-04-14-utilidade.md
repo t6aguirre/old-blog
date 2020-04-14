@@ -4,20 +4,23 @@ title: "Utilidade,  preferencias,  e teoria do consumidor"
 date: 2020-4-14
 ---
 
+A ciência econômica estuda a decisão de agentes. Para tanto, tenta-se modelar como agentes tipicamente tomam decisões, assumindo uma série de hipóteses, que podem ser mais ou menos relaxadas e complexificadas. 
+
 Quando um agente tem a opção de escolher entre duas opções, <img src="https://tex.s2cms.ru/svg/A" alt="A" /> e <img src="https://tex.s2cms.ru/svg/B" alt="B" />, e ele escolhe <img src="https://tex.s2cms.ru/svg/B" alt="B" /> em vez de <img src="https://tex.s2cms.ru/svg/A" alt="A" />, dizemos que ele prefere <img src="https://tex.s2cms.ru/svg/B" alt="B" /> a <img src="https://tex.s2cms.ru/svg/A" alt="A" />. Matematicamente, denotamos: 
 <img src="https://tex.s2cms.ru/svg/%20A%20%5Cprec%20B" alt=" A \prec B" />
 
-Caso o agente for indiferente há ambas opções, denotamos: <img src="https://tex.s2cms.ru/svg/A%20%5Csim%20B" alt="A \sim B" />
+Caso o agente seja indiferente a ambas opções, denotamos: <img src="https://tex.s2cms.ru/svg/A%20%5Csim%20B" alt="A \sim B" />
 
 Dizemos que um agente é racional caso, dado quaisquer opções <img src="https://tex.s2cms.ru/svg/A" alt="A" />, <img src="https://tex.s2cms.ru/svg/B" alt="B" />, e <img src="https://tex.s2cms.ru/svg/C" alt="C" />, tivermos: 
 
-* <img src="https://tex.s2cms.ru/svg/A%20%5Cprec%20B%24%20ou%20%24A%20%5Csucc%20B%24%20ou%20%24A%20%5Csim%20B" alt="A \prec B$ ou $A \succ B$ ou $A \sim B" /> (preferências completas) 
-* Se <img src="https://tex.s2cms.ru/svg/A%20%5Cprec%20B" alt="A \prec B" /> e <img src="https://tex.s2cms.ru/svg/B%20%5Cprec%20C" alt="B \prec C" />, então <img src="https://tex.s2cms.ru/svg/A%20%5Cprec%20C" alt="A \prec C" /> (preferências transitivas)
-\end{itemize}
+* <img src="https://tex.s2cms.ru/svg/A%20%5Cprec%20B%24%20ou%20%24A%20%5Csucc%20B%24%20ou%20%24A%20%5Csim%20B" alt="A \prec B$ ou $A \succ B$ ou $A \sim B" /> (**preferências completas**) 
+* Se <img src="https://tex.s2cms.ru/svg/A%20%5Cprec%20B" alt="A \prec B" /> e <img src="https://tex.s2cms.ru/svg/B%20%5Cprec%20C" alt="B \prec C" />, então <img src="https://tex.s2cms.ru/svg/A%20%5Cprec%20C" alt="A \prec C" /> (**preferências transitivas**)
 
-Inicialmente, consideraremos que as opções <img src="https://tex.s2cms.ru/svg/A" alt="A" />, <img src="https://tex.s2cms.ru/svg/B" alt="B" /> e <img src="https://tex.s2cms.ru/svg/C" alt="C" /> serão produtos. O conjunto dos produtos escolhidos é a cesta de produto do consumidor.  
+Essas opções podem ser qualquer coisa: em que votar paredão do BBB, como reagir a um assalto, ou que linguagem de programação estudar. O escopo da economia é cada vez mais amplo do que é associado tipicamente a disciplina: dinheiro, mercados, produção, e consumo. 
 
-Tipicamente, assumimos que os agentes são racionais. De modo abstrato, entendemos que os agentes derivam utilidade de produtos. Assim, há uma função utilidade, denotada $u(x)$ que, para cada, cada cesta de produtos, atribuí a utilidade que o consumidor deriva dela. Assim, podemos dizer que:
+No entanto, inicialmente estareremos focadas em situações que as opções <img src="https://tex.s2cms.ru/svg/A" alt="A" />, <img src="https://tex.s2cms.ru/svg/B" alt="B" /> e <img src="https://tex.s2cms.ru/svg/C" alt="C" /> são diferentes produtos que um consumidos pode escolher. O conjunto dos produtos escolhidos pelo consumidor é chamado de **cesta de produtos**.
+
+De modo abstrato, entendemos que os agentes derivam utilidade da cesta de produtos que escolhem. Assim, há uma função utilidade, denotada <img src="https://tex.s2cms.ru/svg/u(x)" alt="u(x)" /> que, para cada, cada cesta de produtos, atribuí a utilidade que o consumidor deriva dela. Assim, podemos dizer que:
 
 <img src="https://tex.s2cms.ru/svg/A%20%5Cprec%20B%20%5Ciff%20u(A)%20%3C%20u(B)" alt="A \prec B \iff u(A) &lt; u(B)" />
 
@@ -25,12 +28,10 @@ Assumiremos aqui que a função de utilidade é positivamente inclinada. Isto é
 
 Por exemplo, um indíviduo sempre escolherá uma cesta de produtos que possuí mais de pelo menos um produto. Por exemplo, <img src="https://tex.s2cms.ru/svg/3" alt="3" /> latas de cerveja e $5$ pedaços de pizza são preferíveis <img src="https://tex.s2cms.ru/svg/2" alt="2" /> lata de cerveja e $3$ pedaços de pizza. Isso claramente não é verdade em todos os casos práticos. Indivíduos podem atingir pontos de saciedade, e podemos modelas funções de utilidade assim. No entanto, de modo introdutório, assumiremos que mais sempre é melhor para o consumidor. Isso significa que a primeira derivada da função utilidade será negativa, isto é, <img src="https://tex.s2cms.ru/svg/u'(X)%3E0" alt="u'(X)&gt;0" />. 
 
-Outro propiedade que assumiremos das funções de utilidade é que, a cada incremento do produto <img src="https://tex.s2cms.ru/svg/%5CDelta%20X" alt="\Delta X" />, o consumidor consegue uma menor variação <img src="https://tex.s2cms.ru/svg/%5CDelta%20u(X)" alt="\Delta u(X)" />. Isso é que denominamos de lei da utilidade marginal decrescente. Isso significa que a primeira derivada da função utilidade será negativa, isto é, <img src="https://tex.s2cms.ru/svg/u''(X)%3C0" alt="u''(X)&lt;0" />. 
-Exemplos cotidianos disso são abudantes. É muito importante para uma família uma geladeira. A segunda geladeira já tem uma importância muito menos significativa. Comprar uma terceira geladeira seria um grande exagero para a larga maioria das famílias.  
+Outro propriedade que assumiremos das funções de utilidade é que, a cada incremento do produto <img src="https://tex.s2cms.ru/svg/%5CDelta%20X" alt="\Delta X" />, o consumidor consegue uma menor variação <img src="https://tex.s2cms.ru/svg/%5CDelta%20u(X)" alt="\Delta u(X)" />. Isso é que denominamos de lei da utilidade marginal decrescente. Isso significa que a segunda derivada da função utilidade será negativa, isto é, <img src="https://tex.s2cms.ru/svg/u''(X)%3C0" alt="u''(X)&lt;0" />. 
 
-Supomos que um agente racional tenta maximimar a utilidade esperada ao tomar decisões. Ou seja, que ele atribui utilidades para diferentes cenários e também atribui probabilidades para que cada cenário ocorra, dada sua tomada de decisões. 
-Curva de indiferença
+Há muitos exemplos cotidianos da lei da utilidade marginal descrescente. É muito importante para uma família uma geladeira. A segunda geladeira já tem uma importância muito menos significativa. Comprar uma terceira geladeira então seria um grande exagero para a larga maioria das famílias.  
 
+Supomos, também, que um agente racional tenta maximizar a utilidade esperada ao tomar decisões. Ou seja, o agente racional atribui utilidades para diferentes cenários e também atribui probabilidades para que cada cenário ocorra, dada sua tomada de decisões. 
 
-
-A demanda de um indíviduo
+Assim, ao se decidir por <img src="https://tex.s2cms.ru/svg/A" alt="A" /> ou <img src="https://tex.s2cms.ru/svg/B" alt="B" />, o agente racional refletiria: "Caso eu decida <img src="https://tex.s2cms.ru/svg/A" alt="A" />, os cenários <img src="https://tex.s2cms.ru/svg/A_1" alt="A_1" /> e <img src="https://tex.s2cms.ru/svg/A_2" alt="A_2" /> podem acontecer, com probablidade <img src="https://tex.s2cms.ru/svg/p(A_1)" alt="p(A_1)" /> e <img src="https://tex.s2cms.ru/svg/p(A_2)" alt="p(A_2)" /> e utilidades <img src="https://tex.s2cms.ru/svg/u(A_1)" alt="u(A_1)" /> e <img src="https://tex.s2cms.ru/svg/u(A_1)" alt="u(A_1)" />. Logo, a minha utilidade esperada é de <img src="https://tex.s2cms.ru/svg/ue(A)%20%3D%20p(A_1)*u(A_1)%20%2B%20p(A_2)*u(A_2)" alt="ue(A) = p(A_1)*u(A_1) + p(A_2)*u(A_2)" />. De modo análogo, <img src="https://tex.s2cms.ru/svg/ue(B)%20%3D%20p(B_1)*u(B_1)%20%2B%20p(B_2)*u(B_2)" alt="ue(B) = p(B_1)*u(B_1) + p(B_2)*u(B_2)" />. Como eu observo que <img src="https://tex.s2cms.ru/svg/ue(A)%20%3C%20ue(B)%20" alt="ue(A) &lt; ue(B) " />, então <img src="https://tex.s2cms.ru/svg/A%20%5Cprec%20B" alt="A \prec B" />"
