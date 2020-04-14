@@ -4,17 +4,19 @@ title: "Utilidade,  preferencias,  e teoria do consumidor"
 date: 2020-4-14
 ---
 
-I just started studying undergraduate level introductory statistics and probability. And I want to do it with a hands-on approach and using the best learning resources available online. Three of the main sites that I will use for that are: 
+Quando um agente tem a opção de escolher entre duas opções, $A$ e $B$, e ele escolhe $B$ em vez de $A$, dizemos que ele prefere $B$ a $A$. Matematicamente, denotamos: 
+$A \prec B$
 
-[Computerphile's Playlist on Data Analysis](https://www.youtube.com/playlist?list=PLzH6n4zXuckpfMu_4Ff8E7Z1behQks5ba) -
-An amazing - and short - introduction to data analysis with R by Computerphile, a YouTube channel about Computer Science based at the University of Nottingham.
+Caso o agente for indiferente há ambas opções, denotamos: $A \sim B$
 
-[Seeing Theory](https://seeing-theory.brown.edu/) - 
-Nothing like a good visualization to finally grasp a hard mathematical concept (by the way, I love you, 3Blue1Brown). This site, which started as an undergrad project at Brown University, is a perfect examples of that. 
+Dizemos que um agente é racional caso, dado quaisquer opções $A$, $B$, e $C$, tivermos: 
+\begin{itemize}
+    \item $A \prec B$ ou $A \succ B$ ou $A \sim B$ (preferências completas) 
+    \item Se $A \prec B$ e $B \prec C$, então $A \prec C$ (preferências transitivas)
+\end{itemize}
 
-[OpenIntro Statistics Open Textbooks](https://www.openintro.org/) -
-I'm an enthusiast of open textbooks. And this is a great one. I had studied the first hundred pages of it two years ago, in the middle of high school. Now, let's get to the end of it. 
+Inicialmente, consideraremos que as opções $A$, $B$ e $C$ serão produtos. O conjunto dos produtos escolhidos é a cesta de produto do consumidor.  
 
-Alongside with these sites, I’ll also follow my syllabus at the University of Sao Paulo (unfortunately - and unusually - , they don’t have a recent open syllabus of this subject) and use some resources from [MIT Open Course Warehouse](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/index.htm) 
+Tipicamente, assumimos que os agentes são racionais. De modo abstrato, entendemos que os agentes derivam utilidade de produtos. Assim, há uma função utilidade, denotada $u(x)$ que, para cada, cada cesta de produtos, atribuí a utilidade que o consumidor deriva dela. Assim, podemos dizer que \\
+$A \prec B \iff u(A) < u(B)$
 
-If you know any other good resources for learning introductory statistics and probability, please, message me!
