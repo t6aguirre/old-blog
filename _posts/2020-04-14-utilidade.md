@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Utilidade,  preferencias,  e teoria do consumidor"
+title: "Introduação à utilidades e preferência"
 date: 2020-4-14
 ---
 A ciência econômica estuda a decisão de agentes. Para tanto, tenta-se modelar como agentes tipicamente tomam decisões, assumindo uma série de hipóteses, que podem ser mais ou menos relaxadas e complexificadas. 
