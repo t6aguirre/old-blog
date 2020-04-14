@@ -4,6 +4,8 @@ title: "Introdução a utilidade e preferências"
 date: 2020-4-14
 ---
 
+**Observação: Este texto está sob desenvolvimento.**
+
 A ciência econômica estuda a decisão de agentes. Para tanto, tenta-se modelar como agentes tipicamente tomam decisões, assumindo uma série de hipóteses, que podem ser mais ou menos relaxadas e complexificadas. 
 
 Quando um agente tem a opção de escolher entre duas opções, <img src="https://tex.s2cms.ru/svg/A" alt="A" /> e <img src="https://tex.s2cms.ru/svg/B" alt="B" />, e ele escolhe <img src="https://tex.s2cms.ru/svg/B" alt="B" /> em vez de <img src="https://tex.s2cms.ru/svg/A" alt="A" />, dizemos que ele prefere <img src="https://tex.s2cms.ru/svg/B" alt="B" /> a <img src="https://tex.s2cms.ru/svg/A" alt="A" />. Matematicamente, denotamos: 
