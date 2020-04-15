@@ -7,7 +7,7 @@ Tomás Aguirre's blog
 
 Hey! I'm Tomás Aguirre
 
-I’m a Economics undergrad student at the University of São Paulo. And this is my blog. Here, I write about academic issues that I am interested in and I also talk about a little of my personal projects. Along the way, I want to practice my writing and to get more familiarized with some programming tools.
+I’m a Economics undergrad student at the University of São Paulo. And this is my blog. Here, I write about academic issues that I am interested in and I also talk about of my personal projects. Along the way, I want to practice my writing and to get more familiarized with some programming tools.
 
 Hope you enjoy
 
