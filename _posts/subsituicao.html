@@ -1,0 +1,128 @@
+<script src="https://tex.s2cms.ru/latex.js"></script>
+<h1>Upmath: Math Online Editor</h1>
+<h3><em>Create web articles and blog posts with equations and diagrams</em></h3>
+<p>Upmath extremely simplifies this task by using Markdown and LaTeX. It converts the Markdown syntax extended with LaTeX equations support into HTML code you can publish anywhere on the web.</p>
+<p><img src="/i/latex.jpg" alt="Paper written in LaTeX"></p>
+<h2>Markdown</h2>
+<p>Definition from <a href="https://en.wikipedia.org/wiki/Markdown">Wikipedia</a>:</p>
+<blockquote>
+<p>Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.</p>
+</blockquote>
+<p>The main idea of Markdown is to use a simple plain text markup. It’s <s>hard</s> easy to <strong>make</strong> <strong>bold</strong> <em>or</em> <em>italic</em> text. Simple $$A$$ equations can be formatted with subscripts and superscripts: <em>E</em><sub>0</sub>=<em>mc</em><sup>2</sup>. I have added the LaTeX support: $$ A\prec B $$.</p>
+<p>Among Markdown features are:</p>
+<ul>
+<li>images (see above);</li>
+<li>links: <a href="/" title="link title">service main page</a>;</li>
+<li>code: <code>untouched equation source is *E*~0~=*mc*^2^</code>;</li>
+<li>unordered lists–when a line starts with <code>+</code>, <code>-</code>, or <code>*</code>;
+<ol>
+<li>sub-lists</li>
+<li>and ordered lists too;</li>
+</ol>
+</li>
+<li>direct use <nobr>of HTML</nobr>–for <span style="color: red">anything else</span>.</li>
+</ul>
+<p>Also the editor supports typographic replacements: © ® ™ § ± !!! ??? ,  – —</p>
+<h2>LaTeX</h2>
+<p>The editor converts LaTeX equations in double-dollars <code>$$</code>: $$ax^2+bx+c=0$$. All equations are rendered as block equations. If you need inline ones, you can add the prefix <code>\inline</code>: $$\inline p={1\over q}$$. But it is a good practice to place big equations on separate lines:</p>
+<p>$$x_{1,2} = {-b\pm\sqrt{b^2 - 4ac} \over 2a}.$$</p>
+<p>In this case the LaTeX syntax will be highlighted in the source code. You can even add equation numbers (unfortunately there is no automatic numbering and refs support):</p>
+<p><span style="float:right">(1)</span>$$|\vec{A}|=\sqrt{A_x^2 + A_y^2 + A_z^2}.$$</p>
+<p>It is possible to write Cyrillic symbols in <code>\text</code> command: $$Q_\text{плавления}&gt;0$$.</p>
+<p>One can use matrices:</p>
+<p>$$T^{\mu\nu}=\begin{pmatrix}
+\varepsilon&amp;0&amp;0&amp;0\\
+0&amp;\varepsilon/3&amp;0&amp;0\\
+0&amp;0&amp;\varepsilon/3&amp;0\\
+0&amp;0&amp;0&amp;\varepsilon/3
+\end{pmatrix},$$</p>
+<p>integrals:</p>
+<p>$$P_\omega={n_\omega\over 2}\hbar\omega\,{1+R\over 1-v^2}\int\limits_{-1}^{1}dx\,(x-v)|x-v|,$$</p>
+<p>cool tikz-pictures:</p>
+<p>$$\usetikzlibrary{decorations.pathmorphing}
+\begin{tikzpicture}[line width=0.2mm,scale=1.0545]\small
+\tikzset{&gt;=stealth}
+\tikzset{snake it/.style={-&gt;,semithick,
+decoration={snake,amplitude=.3mm,segment length=2.5mm,post length=0.9mm},decorate}}
+\def\h{3}
+\def\d{0.2}
+\def\ww{1.4}
+\def\w{1+\ww}
+\def\p{1.5}
+\def\r{0.7}
+\coordinate[label=below:$A_1$] (A1) at (\ww,\p);
+\coordinate[label=above:$B_1$] (B1) at (\ww,\p+\h);
+\coordinate[label=below:$A_2$] (A2) at (\w,\p);
+\coordinate[label=above:$B_2$] (B2) at (\w,\p+\h);
+\coordinate[label=left:$C$] (C1) at (0,0);
+\coordinate[label=left:$D$] (D) at (0,\h);
+\draw[fill=blue!14](A2)--(B2)-- ++(\d,0)-- ++(0,-\h)--cycle;
+\draw[gray,thin](C1)-- +(\w+\d,0);
+\draw[dashed,gray,fill=blue!5](A1)-- (B1)-- ++(\d,0)-- ++(0,-\h)-- cycle;
+\draw[dashed,line width=0.14mm](A1)--(C1)--(D)--(B1);
+\draw[snake it](C1)--(A2) node[pos=0.6,below] {$c\Delta t$};
+\draw[-&gt;,semithick](\ww,\p+0.44*\h)-- +(\w-\ww,0) node[pos=0.6,above] {$v\Delta t$};
+\draw[snake it](D)--(B2);
+\draw[thin](\r,0) arc (0:atan2(\p,\w):\r) node[midway,right,yshift=0.06cm] {$\theta$};
+\draw[opacity=0](-0.40,-0.14)-- ++(0,5.06);
+\end{tikzpicture}$$</p>
+<p>plots:</p>
+<p>$$\begin{tikzpicture}[scale=1.0544]\small
+\begin{axis}[axis line style=gray,
+	samples=120,
+	width=9.0cm,height=6.4cm,
+	xmin=-1.5, xmax=1.5,
+	ymin=0, ymax=1.8,
+	restrict y to domain=-0.2:2,
+	ytick={1},
+	xtick={-1,1},
+	axis equal,
+	axis x line=center,
+	axis y line=center,
+	xlabel=$x$,ylabel=$y$]
+\addplot[red,domain=-2:1,semithick]{exp(x)};
+\addplot[black]{x+1};
+\addplot[] coordinates {(1,1.5)} node{$y=x+1$};
+\addplot[red] coordinates {(-1,0.6)} node{$y=e^x$};
+\path (axis cs:0,0) node [anchor=north west,yshift=-0.07cm] {0};
+\end{axis}
+\end{tikzpicture}$$</p>
+<p>and <a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">the rest of LaTeX features</a>.</p>
+<h2>About Upmath</h2>
+<p>It works in browsers, except equations rendered <a href="//tex.s2cms.com/">on the server</a>. The editor stores your text in the browser to prevent the loss of your work in case of software or hardware failures.</p>
+<p>I have designed and developed this lightweight editor and the service for converting LaTeX equations into svg-pictures to make publishing math texts on the web easy. I consider client-side rendering, the rival technique implemented in <a href="https://www.mathjax.org/">MathJax</a>, to be too limited and resource-consuming, especially on mobile devices.</p>
+<p>The source code is <a href="https://github.com/parpalak/upmath.me">published on Github</a> under MIT license.</p>
+<hr>
+<p>Now you can erase this instruction and start writing your own scientific post. If you want to see the instruction again, open the editor in a private tab, in a different browser or download and clear your post and refresh the page.</p>
+<p>Have a nice day :)</p>
+<hr>
+<h2>layout: post
+title: &quot;Introdução a utilidade e preferências&quot;
+date: 2020-4-14</h2>
+<p><strong>Observação: Este texto está sob desenvolvimento.</strong></p>
+<p>A ciência econômica estuda a decisão de agentes. Na tentativa de modelar o comportamento desses agentes, assume-se uma série de hipóteses simplificadores de como eles tipicamente decisões.</p>
+<p>Quando um agente tem a opção de escolher entre duas opções, <img src="https://tex.s2cms.ru/svg/A" alt="A" /> e <img src="https://tex.s2cms.ru/svg/B" alt="B" />, e ele escolhe <img src="https://tex.s2cms.ru/svg/B" alt="B" /> em vez de <img src="https://tex.s2cms.ru/svg/A" alt="A" />, dizemos que ele prefere <img src="https://tex.s2cms.ru/svg/B" alt="B" /> a <img src="https://tex.s2cms.ru/svg/A" alt="A" />. Matematicamente, denotamos:
+<img src="https://tex.s2cms.ru/svg/%20A%20%5Cprec%20B" alt=" A \prec B" /></p>
+<p>Caso o agente seja indiferente a ambas opções, denotamos: <img src="https://tex.s2cms.ru/svg/A%20%5Csim%20B" alt="A \sim B" /></p>
+<p>Normalmente,  assumimos, que dado quaisquer opções <img src="https://tex.s2cms.ru/svg/A" alt="A" />, <img src="https://tex.s2cms.ru/svg/B" alt="B" />, e <img src="https://tex.s2cms.ru/svg/C" alt="C" />, temos:</p>
+<ul>
+<li><img src="https://tex.s2cms.ru/svg/A%20%5Cprec%20B%24%20ou%20%24A%20%5Csucc%20B%24%20ou%20%24A%20%5Csim%20B" alt="A \prec B$ ou $A \succ B$ ou $A \sim B" /> (<strong>preferências completas</strong>)</li>
+<li>Se <img src="https://tex.s2cms.ru/svg/A%20%5Cprec%20B" alt="A \prec B" /> e <img src="https://tex.s2cms.ru/svg/B%20%5Cprec%20C" alt="B \prec C" />, então <img src="https://tex.s2cms.ru/svg/A%20%5Cprec%20C" alt="A \prec C" /> (<strong>preferências transitivas</strong>)</li>
+</ul>
+<p>Essas opções podem ser qualquer coisa: em quem votar no paredão do BBB, como reagir a um assalto, ou que linguagem de programação estudar. O escopo da economia é cada vez mais amplo do que é associado tipicamente a disciplina: dinheiro, mercados, produção, e consumo.</p>
+<p>No entanto, inicialmente estareremos focadas em situações que as opções <img src="https://tex.s2cms.ru/svg/A" alt="A" />, <img src="https://tex.s2cms.ru/svg/B" alt="B" /> e <img src="https://tex.s2cms.ru/svg/C" alt="C" /> são diferentes produtos que um consumidos pode escolher. O conjunto dos produtos escolhidos pelo consumidor é chamado de <strong>cesta de produtos</strong>.</p>
+<p>De modo abstrato, entendemos que os agentes derivam utilidade da cesta de produtos que escolhem. Assim, há uma <strong>função utilidade</strong>, denotada <img src="https://tex.s2cms.ru/svg/u(x)" alt="u(x)" /> que, para cada, cada cesta de produtos, atribuí a utilidade que o consumidor deriva dela. Assim, podemos dizer que:</p>
+<img src="https://tex.s2cms.ru/svg/A%20%5Cprec%20B%20%5Ciff%20u(A)%20%3C%20u(B)" alt="A \prec B \iff u(A) &lt; u(B)" />
+<p>Assumiremos aqui que a função de utilidade é positivamente inclinada. Isto é, que para cada incremento de produto <img src="https://tex.s2cms.ru/svg/%5CDelta%20X" alt="\Delta X" />, o consumidor consegue uma variação de utilidade positiva, isto é,  $$\Delta u(x) &gt; 0$$.</p>
+<p>Por exemplo, um indivíduo sempre escolherá uma cesta de produtos que possuí mais de pelo menos um produto. Por exemplo, <img src="https://tex.s2cms.ru/svg/3" alt="3" /> latas de cerveja e <img src="https://tex.s2cms.ru/svg/5" alt="5" /> pedaços de pizza são preferíveis <img src="https://tex.s2cms.ru/svg/2" alt="2" /> lata de cerveja e <img src="https://tex.s2cms.ru/svg/3" alt="3" /> pedaços de pizza. Isso claramente não é verdade em todos os casos práticos. Indivíduos podem atingir pontos de saciedade, e podemos modelar funções de utilidade assim. No entanto, de modo introdutório, assumiremos que mais sempre é melhor para o consumidor. Isso significa que a primeira derivada da função utilidade é positiva, isto é, $$u'(x) &gt; 0$$.</p>
+<p>Outro propriedade que assumiremos das funções de utilidade é que, a cada incremento do produto <img src="https://tex.s2cms.ru/svg/%5CDelta%20X" alt="\Delta X" />, o consumidor consegue uma menor variação <img src="https://tex.s2cms.ru/svg/%5CDelta%20u(X)" alt="\Delta u(X)" />. Isso é que denominamos de <strong>lei da utilidade marginal decrescente</strong>. Isso significa que a segunda derivada da função utilidade é negativa, isto é,  $$u''(x) &lt; 0$$.</p>
+<p>Há muitos exemplos cotidianos da lei da utilidade marginal descrescente. É muito importante para uma família uma geladeira. A segunda geladeira já tem uma importância muito menos significativa. Comprar uma terceira geladeira então seria um grande exagero para a larga maioria das famílias.</p>
+<p>Supomos, também, que um agente tenta maximizar a função utilidade esperada <img src="https://tex.s2cms.ru/svg/u_e(x)" alt="u_e(x)" /> ao tomar decisões. Ou seja, o agente racional atribui utilidades para diferentes cenários e também atribui probabilidades para que cada cenário ocorra, dada sua tomada de decisões.</p>
+<p>Assim, ao se decidir por <img src="https://tex.s2cms.ru/svg/A" alt="A" /> ou <img src="https://tex.s2cms.ru/svg/B" alt="B" />, o agente racional refletiria: &quot;Caso eu decida <img src="https://tex.s2cms.ru/svg/A" alt="A" />, os cenários <img src="https://tex.s2cms.ru/svg/A_1" alt="A_1" /> e <img src="https://tex.s2cms.ru/svg/A_2" alt="A_2" /> podem acontecer, com probabilidade <img src="https://tex.s2cms.ru/svg/p(A_1)" alt="p(A_1)" /> e <img src="https://tex.s2cms.ru/svg/p(A_2)" alt="p(A_2)" /> e utilidades <img src="https://tex.s2cms.ru/svg/u(A_1)" alt="u(A_1)" /> e <img src="https://tex.s2cms.ru/svg/u(A_2)" alt="u(A_2)" />. Logo, a minha utilidade esperada é de <img src="https://tex.s2cms.ru/svg/u_e(A)%20%3D%20p(A_1)*u(A_1)%20%2B%20p(A_2)*u(A_2)" alt="u_e(A) = p(A_1)*u(A_1) + p(A_2)*u(A_2)" />. De modo análogo, <img src="https://tex.s2cms.ru/svg/u_e(B)%20%3D%20p(B_1)*u(B_1)%20%2B%20p(B_2)*u(B_2)" alt="u_e(B) = p(B_1)*u(B_1) + p(B_2)*u(B_2)" />. Como eu observo que <img src="https://tex.s2cms.ru/svg/u_e(A)%20%3C%20u_e(B)%20" alt="u_e(A) &lt; u_e(B) " />, então <img src="https://tex.s2cms.ru/svg/A%20%5Cprec%20B" alt="A \prec B" />.&quot;</p>
+<p>Em suma, um <strong>agente racional</strong> tem preferências completas, transitivas e que maximizam a utilidade esperada.</p>
+<p><strong>Por que a taxa marginal de substituição é igual a $$\hspace$$ $$-\frac{U_{mg1}}{U_{mg2}}$$?</strong></p>
+<p>Por definição, a variação da utilidade dentro de uma curva de indiferença é igual a zero. Também sabemos que a taxa marginal de substituição é igual a $$\frac{\Delta x_2}{\Delta x_1}$$. Assim, temos:</p>
+<p>$$\Delta U = 0 \Rightarrow $$</p>
+<p>$$\Delta U = U_{mg1}*\Delta x_1+ U_{mg2}*\Delta x_2 = 0 \Rightarrow $$</p>
+<p>$$  U_{mg1}*\Delta x_1 = - U_{mg2}*\Delta x_2 \Rightarrow$$</p>
+<p>$$  \frac{\Delta x_2}{\Delta x_1} = -\frac{U_{mg1}}{U_{mg2}} $$</p>
