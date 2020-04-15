@@ -8,10 +8,10 @@ date: 2020-4-14
 
 A ciência econômica estuda a decisão de agentes. Na tentativa de modelar o comportamento desses agentes, assume-se uma série de hipóteses simplificadores de como eles tipicamente tomam decisões.
 
-Quando um agente tem a opção de escolher entre duas opções, <img src="https://tex.s2cms.ru/svg/A" alt="A" /> e <img src="https://tex.s2cms.ru/svg/B" alt="B" />, e ele escolhe <img src="https://tex.s2cms.ru/svg/B" alt="B" /> em vez de <img src="https://tex.s2cms.ru/svg/A" alt="A" />, dizemos que ele prefere <img src="https://tex.s2cms.ru/svg/B" alt="B" /> a <img src="https://tex.s2cms.ru/svg/A" alt="A" />. Matematicamente, denotamos: 
+Quando um agente tem a opção de escolher entre duas alternativas, <img src="https://tex.s2cms.ru/svg/A" alt="A" /> e <img src="https://tex.s2cms.ru/svg/B" alt="B" />, e ele escolhe <img src="https://tex.s2cms.ru/svg/B" alt="B" /> em vez de <img src="https://tex.s2cms.ru/svg/A" alt="A" />, dizemos que ele prefere <img src="https://tex.s2cms.ru/svg/B" alt="B" /> a <img src="https://tex.s2cms.ru/svg/A" alt="A" />. Matematicamente, denotamos: 
 <img src="https://tex.s2cms.ru/svg/%20A%20%5Cprec%20B" alt=" A \prec B" />
 
-Caso o agente seja indiferente a ambas opções, denotamos: <img src="https://tex.s2cms.ru/svg/A%20%5Csim%20B" alt="A \sim B" />
+Caso o agente seja indiferente entre ambas opções, denotamos: <img src="https://tex.s2cms.ru/svg/A%20%5Csim%20B" alt="A \sim B" />
 
 Normalmente,  assumimos, que dado quaisquer opções <img src="https://tex.s2cms.ru/svg/A" alt="A" />, <img src="https://tex.s2cms.ru/svg/B" alt="B" />, e <img src="https://tex.s2cms.ru/svg/C" alt="C" />, temos: 
 
